@@ -1,9 +1,126 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Trang-1" id="hoFLqR-C-KZql8hQwdSL">
-    <mxGraphModel>
+    <mxGraphModel dx="1877" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-1" target="OLYwPl-GBkTmt4Ip3eZC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="240" />
+              <mxPoint x="180" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-1" target="OLYwPl-GBkTmt4Ip3eZC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="240" />
+              <mxPoint x="180" y="503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-1" target="OLYwPl-GBkTmt4Ip3eZC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-1" value="Login&lt;br&gt;auth_token&lt;div&gt;-email&lt;/div&gt;&lt;div&gt;-username&lt;/div&gt;&lt;div&gt;get_me&lt;/div&gt;&lt;div&gt;*email&lt;/div&gt;&lt;div&gt;kiem tra email có ton tai khong&lt;/div&gt;&lt;div&gt;0:&lt;/div&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;pricing_max&lt;/div&gt;&lt;div&gt;api_keys&lt;/div&gt;&lt;div&gt;pricing_usage&lt;/div&gt;&lt;div&gt;estimate: pricing_úage +....&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;email_call{&lt;/div&gt;&lt;div&gt;time}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="190" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-2" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="10" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-4" value="get_me&lt;div&gt;check email có hoạc không&lt;br&gt;&lt;div&gt;email{&lt;/div&gt;&lt;div&gt;pricing_max&lt;/div&gt;&lt;div&gt;api_keys&lt;/div&gt;&lt;div&gt;pricing_usage&lt;/div&gt;&lt;div&gt;estimate: pricing_úage +....&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.637;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-6" target="OLYwPl-GBkTmt4Ip3eZC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="547" y="370" />
+              <mxPoint x="547" y="380" />
+              <mxPoint x="718" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-17" value="gia tien luu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OLYwPl-GBkTmt4Ip3eZC-16">
+          <mxGeometry x="0.3841" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="400" />
+              <mxPoint x="621" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-25" value="tthoi gian cuoc goi&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OLYwPl-GBkTmt4Ip3eZC-24">
+          <mxGeometry x="-0.4464" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-6" value="create api key&lt;div&gt;api_key{&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="294" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.04;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-1" target="OLYwPl-GBkTmt4Ip3eZC-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="240" />
+              <mxPoint x="180" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-8" target="OLYwPl-GBkTmt4Ip3eZC-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="503" />
+              <mxPoint x="600" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-10" value="cap nhat api_keys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OLYwPl-GBkTmt4Ip3eZC-9">
+          <mxGeometry x="0.6455" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-8" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;delete_api_key&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="301" y="470" width="106" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-14" value="call api_key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="420" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-14" target="OLYwPl-GBkTmt4Ip3eZC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-18" value="Login&lt;br&gt;auth_token&lt;div&gt;-email&lt;/div&gt;&lt;div&gt;-username&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-19" value="add_pricing_max" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="106" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OLYwPl-GBkTmt4Ip3eZC-19" target="OLYwPl-GBkTmt4Ip3eZC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-23" value="cap nhat lai pricing max" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OLYwPl-GBkTmt4Ip3eZC-22">
+          <mxGeometry x="-0.3412" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLYwPl-GBkTmt4Ip3eZC-26" value="email_call" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
